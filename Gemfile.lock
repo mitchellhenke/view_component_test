@@ -1,5 +1,7 @@
-PATH
-  remote: /Users/mitchellhenke/Documents/ruby/view_component
+GIT
+  remote: https://github.com/mitchellhenke/view_component.git
+  revision: fba786e8d5a4eccb56720ffdd53d9ae5b95f628f
+  branch: support-freezing-template-string-literals
   specs:
     view_component (3.7.0)
       activesupport (>= 5.2.0, < 8.0)

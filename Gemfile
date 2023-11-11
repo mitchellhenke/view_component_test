@@ -26,7 +26,7 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
-gem "view_component", path: '/Users/mitchellhenke/Documents/ruby/view_component'
+gem "view_component", git: 'https://github.com/mitchellhenke/view_component.git', branch: 'support-freezing-template-string-literals'
 gem "derailed_benchmarks"
 gem "stackprof"
 gem "memory_profiler"
